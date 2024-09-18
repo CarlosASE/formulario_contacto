@@ -1,11 +1,9 @@
 body {
-  font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: #f0f8ff;
-  margin: 0;
 }
 
 .contacto {
@@ -23,17 +21,17 @@ body {
   text-align: center;
 }
 
-.form-group {
+.form {
   margin-bottom: 15px;
 }
 
-.form-group label {
+.form label {
   display: block;
   margin-bottom: 5px;
 }
 
-.form-group input,
-.form-group textarea {
+.form input,
+.form textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -42,8 +40,8 @@ body {
   font-size: 14px;
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
+.form input:focus,
+.form textarea:focus {
   outline: none;
   border-color: #007bff;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
